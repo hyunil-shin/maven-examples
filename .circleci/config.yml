@@ -5,6 +5,7 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/maven-unit-test
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:8-jdk
